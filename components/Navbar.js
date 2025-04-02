@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black h-12 flex text-white items-center">
-      <div className="logo m-1 p-4 font-bold hover:cursor-pointer text-emerald-400 text-xl">EcoSnap</div>
+    <nav className="bg-black h-12 flex text-white items-center w-auto">
+      <Link href="/" className="logo m-1 p-4 font-bold hover:cursor-pointer text-emerald-400 text-xl">EcoSnap</Link>
       <ul className="flex space-x-4 ml-auto mr-4 items-center">
         <li><label className="toggle text-base-content bg-white">
   <input type="checkbox" value="dark" className="theme-controller" />

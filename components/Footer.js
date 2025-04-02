@@ -2,9 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="bg-black h-12 flex text-white items-center justify-center position-fixed bottom-0">
-      Footer
-    </div>
+    <footer className="bg-black h-12 flex text-white items-center justify-center position-fixed bottom-0">
+      <div className="text-center">
+        <p className="text-sm">© 2025 EcoSnap. All rights reserved. Made with ❤️ by Team EcoSnap</p>
+      </div>
+    </footer>
   )
 }
 
