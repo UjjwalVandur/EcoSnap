@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <div className="lg:min-h-[85vh] sm:min-h-[90vh]">
         {children}
         </div>
-        <Footer />
+       
       </body>
     </html>
   );
