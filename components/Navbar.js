@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-black h-12 flex text-white items-center w-auto">
+      <nav className="  h-12 flex text-white items-center w-auto bg-gray-950 sticky top-0 ">
         <Link
           href="/"
           className="logo m-1 p-4 font-bold hover:cursor-pointer text-emerald-400 text-xl"
@@ -213,7 +213,7 @@ const Navbar = () => {
 
           {/* Mobile Dropdown Menu */}
           {isOpen && (
-            <div className="absolute top-12 right-0 w-full bg-black text-white flex flex-col space-y-2 p-4 md:hidden z-1">
+            <div className="absolute top-12 right-0 w-full bg-gray-950 text-white flex flex-col space-y-2 p-4 md:hidden z-1">
               <Link
                 href="/"
                 className="hover:text-emerald-400 "

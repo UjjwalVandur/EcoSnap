@@ -15,7 +15,7 @@ const fadeIn = {
 
 const About = () => {
   return (
-    <main className="bg-base-100 text-white min-h-screen py-10 px-6 md:px-20">
+    <main className="  [background:radial-gradient(100%_100%_at_50%_10%,var(--background-start)_40%,var(--background-end)_100%)] text-white min-h-screen py-10 px-6 md:px-20">
       {/* Hero Section */}
       <motion.section
         className="text-center mb-16"

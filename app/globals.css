@@ -2,3 +2,13 @@
 @plugin "daisyui"{
   themes: light --default, dark;
 }
+
+:root {
+  --background-start: #ffffff;
+  --background-end: #6633ee;
+}
+
+[data-theme="dark"] {
+  --background-start: #0a0a0a;
+  --background-end: #222266;
+}
