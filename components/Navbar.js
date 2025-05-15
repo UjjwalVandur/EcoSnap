@@ -21,12 +21,18 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="  h-12 flex text-white items-center w-auto bg-gray-950 sticky top-0 ">
+      <nav className="  h-12 flex text-white items-center w-auto bg-gray-950 sticky top-0 z-1">
         <Link
           href="/"
-          className="logo m-1 p-4 font-bold hover:cursor-pointer text-emerald-400 text-xl"
+          className="logo ml-4 my-1 py-4 m- font-bold hover:cursor-pointer text-xl text-emerald-400"
         >
-          EcoSnap
+          Eco
+        </Link>
+        <Link
+          href="/"
+          className="logo my-1 py-4 font-bold hover:cursor-pointer text-xl"
+        >
+          Snap
         </Link>
         <ul className="flex space-x-4 ml-auto mr-4 items-center ">
           {/* <li>
@@ -172,7 +178,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/"
-                className="hover:text-black cursor-pointer btn btn-dash btn-accent "
+                className="hover:text-neutral-300 text-white cursor-pointer  "
               >
                 Home
               </Link>
@@ -203,8 +209,24 @@ const Navbar = () => {
           </li> */}
             <li>
               <Link
+                href="/"
+                className="hover:text-neutral-300 cursor-pointer "
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className="hover:text-neutral-300 cursor-pointer "
+              >
+                Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/login"
-                className="hover:text-black cursor-pointer btn btn-dash btn-accent "
+                className="hover:text-neutral-300 cursor-pointer "
               >
                 Login
               </Link>

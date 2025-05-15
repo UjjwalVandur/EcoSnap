@@ -15,7 +15,7 @@ const fadeIn = {
 
 const About = () => {
   return (
-    <main className="  [background:radial-gradient(100%_100%_at_50%_10%,var(--background-start)_40%,var(--background-end)_100%)] text-white min-h-screen py-10 px-6 md:px-20">
+    <main className="  [background:var(--background-end)] text-white  py-10 px-6 md:px-20 lg:min-h-[95vh] lg:flex-row sm:min-h-[95vh] sm:flex-row md:min-h-[95vh] md:flex-row min-h-[95vh] ">
       {/* Hero Section */}
       <motion.section
         className="text-center mb-16"
@@ -70,28 +70,7 @@ const About = () => {
         </div>
       </motion.section>
 
-      {/* Contact Us */}
-      <motion.section
-        className="text-center bg-gray-900 p-8 rounded-2xl"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeIn}
-        custom={0.2}
-      >
-        <h2 className="text-3xl text-emerald-300 font-semibold mb-4">Contact Us</h2>
-        <p className="text-gray-300 mb-6">
-          Got questions, feedback, or want to collaborate? We’d love to hear from you.
-        </p>
-        <div className="space-y-2 text-gray-400">
-          <p>Email: <a href="mailto:contact@ecosnap.ai" className="text-emerald-400 hover:underline">contact@ecosnap.ai</a></p>
-          <p>Phone: <a href="tel:+911234567890" className="text-emerald-400 hover:underline">+91 12345 67890</a></p>
-          <p>Location: EcoSnap HQ, GreenTech Park, Bengaluru, India</p>
-        </div>
-        <Link href="/contact">
-          <button className="btn btn-accent mt-6">Send a Message</button>
-        </Link>
-      </motion.section>
+    
     </main>
   );
 };

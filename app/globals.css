@@ -5,10 +5,11 @@
 
 :root {
   --background-start: #ffffff;
-  --background-end: #6633ee;
+  --background-end: #ffffff;
+  --text-color:#f57c00;
 }
 
 [data-theme="dark"] {
-  --background-start: #0a0a0a;
-  --background-end: #222266;
+  --background-start: #030712; 
+  --background-end: #090c1d;
 }
