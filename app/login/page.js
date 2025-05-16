@@ -1,21 +1,20 @@
 "use client";
 
-import React from 'react'
+import React from "react";
 
 const Login = () => {
   return (
     <>
-    <div>
-   
+     
 <div className="[background:radial-gradient(100%_100%_at_50%_10%,var(--background-start)_40%,var(--background-end)_100%)] py-16 lg:min-h-[85vh] sm:min-h-[90vh] md:min-h-[90vh] min-h-[90vh]">
-    <div className="flex bg-base-300 rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
-        <div className="hidden lg:block lg:w-1/2 bg-cover"
-            style={{backgroundImage:"url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')"}}>
+    <div className="flex bg-white rounded-lg shadow-2xl overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
+        <div className="hidden lg:block lg:w-1/2 bg-cover">
+        <img src='/forms.svg'></img>
         </div>
-        <div className="w-full p-8 lg:w-1/2">
-            <h2 className="text-2xl font-semibold text-base-content/70 text-center">Brand</h2>
-            <p className="text-xl text-base-content/60 text-center">Welcome back!</p>
-            <a href="#" className="flex items-center justify-center mt-4 text-base-content rounded-lg shadow-md hover:bg-gray-100">
+        <div className="w-full p-6 lg:w-1/2">
+            <h2 className="text-2xl font-semibold text-gray-700 text-center">Brand</h2>
+            <p className="text-xl text-gray-600 text-center">Welcome back!</p>
+            <a href="#" className="flex items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
                 <div className="px-4 py-3">
                     <svg className="h-6 w-6" viewBox="0 0 40 40">
                         <path
@@ -61,11 +60,8 @@ const Login = () => {
         </div>
     </div>
 </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default Login
-
-
+export default Login;

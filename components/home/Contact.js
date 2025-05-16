@@ -15,12 +15,12 @@ const fadeIn = {
 
 const Contact = () => {
   return (
-    <main className="  [background:var(--background-end)] text-white  py-10 px-6 md:px-20 flex flex-col items-center justify-center lg:min-h-[95vh] lg:flex-row sm:min-h-[95vh] sm:flex-row md:min-h-[95vh] md:flex-row min-h-[95vh]">
+    <main id="contact" className="  [background:var(--background-end)] text-white  py-10 px-6 md:px-20 flex flex-col items-center justify-center lg:min-h-[95vh] lg:flex-row sm:min-h-[95vh] sm:flex-row md:min-h-[95vh] md:flex-row min-h-[95vh]">
       
 
       {/* Contact Us */}
       <motion.section
-        className="text-center bg-gray-900 p-8 rounded-2xl h-full w-full max-w-2xl shadow-lg"
+        className="text-center bg-gray-900 p-8 rounded-2xl h-full w-full max-w-2xl shadow-lg "
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}

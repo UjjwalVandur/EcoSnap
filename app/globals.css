@@ -13,3 +13,6 @@
   --background-start: #030712; 
   --background-end: #090c1d;
 }
+html {
+  scroll-behavior: smooth;
+}

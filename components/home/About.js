@@ -15,10 +15,10 @@ const fadeIn = {
 
 const About = () => {
   return (
-    <main className="  [background:var(--background-end)] text-white  py-10 px-6 md:px-20 lg:min-h-[95vh] lg:flex-row sm:min-h-[95vh] sm:flex-row md:min-h-[95vh] md:flex-row min-h-[95vh] ">
+    <section id="about" className="   [background:var(--background-end)] text-white  py-10 px-6 md:px-20 lg:min-h-[95vh] lg:flex-row sm:min-h-[95vh] sm:flex-row md:min-h-[95vh] md:flex-row min-h-[95vh] ">
       {/* Hero Section */}
       <motion.section
-        className="text-center mb-16"
+        className="text-center mb-16 "
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -71,7 +71,7 @@ const About = () => {
       </motion.section>
 
     
-    </main>
+    </section>
   );
 };
 

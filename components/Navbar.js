@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [theme, setTheme] = useState("light");
@@ -18,6 +19,7 @@ const Navbar = () => {
     localStorage.setItem("theme", newTheme);
     setTheme(newTheme);
   };
+  
 
   return (
     <>
@@ -174,11 +176,11 @@ const Navbar = () => {
           </button>
 
           {/* Desktop Navigation */}
-          <ul className="hidden md:flex space-x-4 ml-auto mr-4 items-center">
+          <ul className="hidden md:flex space-x-4 ml-auto mr-4 items-center ">
             <li>
               <Link
                 href="/"
-                className="hover:text-neutral-300 text-white cursor-pointer  "
+                className="hover:text-neutral-300 text-white cursor-pointer scroll={false} "
               >
                 Home
               </Link>
@@ -209,16 +211,17 @@ const Navbar = () => {
           </li> */}
             <li>
               <Link
-                href="/"
-                className="hover:text-neutral-300 cursor-pointer "
+                href='/#about'
+                
+                className="hover:text-neutral-300 cursor-pointer scroll={false}"
               >
                 About Us
               </Link>
             </li>
             <li>
               <Link
-                href="/"
-                className="hover:text-neutral-300 cursor-pointer "
+                href="/#contact"
+                className="hover:text-neutral-300 cursor-pointer scroll={false}"
               >
                 Contact Us
               </Link>
@@ -226,7 +229,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/login"
-                className="hover:text-neutral-300 cursor-pointer "
+                className="hover:text-neutral-300 cursor-pointer scroll={false}"
               >
                 Login
               </Link>

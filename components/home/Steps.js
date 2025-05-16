@@ -34,7 +34,7 @@ const Steps = () => {
   return (
     <section className="py-16 px-6 md:px-20 [background:var(--background-end)] text-base-content text-center ">
       <motion.h2
-        className="text-3xl font-bold text-emerald-400 mb-10"
+        className="text-3xl font-bold text-emerald-400 mb-10 id:steps"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
