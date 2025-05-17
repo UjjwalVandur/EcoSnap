@@ -8,6 +8,7 @@ import About from "@/components/home/About";
 import Contact from "@/components/home/Contact";
 import Steps from "@/components/home/Steps";
 import FAQ from "@/components/home/FAQ";
+import Navbar from "@/components/Navbar";
 
 const fullText =
   "Your one-stop solution for waste management. Join us in making the world a cleaner place.";
@@ -43,6 +44,7 @@ export default function Home() {
   }, [index, isDeleting]);
   return (
     <>
+    <Navbar />
       <section className="id:home flex justify-center items-center flex-col lg:min-h-[95vh] lg:flex-row sm:min-h-[95vh] sm:flex-row md:min-h-[95vh] md:flex-row min-h-[95vh] bg-white [background:var(--background-start)]">
         <div className="hero-content text-center ">
           <div className="max-w-md">

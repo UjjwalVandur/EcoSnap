@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react";
+import Navbar from "@/components/Navbar";
 
 const Login = () => {
   return (
     <>
-     
+     <Navbar />
 <div className="[background:radial-gradient(100%_100%_at_50%_10%,var(--background-start)_40%,var(--background-end)_100%)] py-16 lg:min-h-[85vh] sm:min-h-[90vh] md:min-h-[90vh] min-h-[90vh]">
     <div className="flex bg-white rounded-lg shadow-2xl overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div className="hidden lg:block lg:w-1/2 bg-cover">
@@ -50,7 +51,7 @@ const Login = () => {
                 <input className="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none" type="password" />
             </div>
             <div className="mt-8">
-                <button className="bg-gray-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-gray-600">Login</button>
+                <button  className="bg-gray-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-gray-600"><a href="/userDashboard">Login</a></button>
             </div>
             <div className="mt-4 flex items-center justify-between">
                 <span className="border-b w-1/5 md:w-1/4"></span>

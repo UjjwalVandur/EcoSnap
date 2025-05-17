@@ -4,14 +4,19 @@
 }
 
 :root {
-  --background-start: #ffffff;
-  --background-end: #ffffff;
-  --text-color:#f57c00;
+  --background-start:#ffffff;
+  --background-end:#ffffff;
+  --secondary-background:#030712;
+  --text-color:#ffffff;
+  --text-color-primary:#1F2937;
 }
 
 [data-theme="dark"] {
-  --background-start: #030712; 
-  --background-end: #090c1d;
+  --background-start:#030712; 
+  --background-end:#090c1d;
+  --secondary-background:#ffffff;
+  --text-color:#1F2937;
+  --text-color-primary:#ffffff;
 }
 html {
   scroll-behavior: smooth;
